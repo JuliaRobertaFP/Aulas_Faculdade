@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Júlia Roberta</title>
+</head>
+<!--Classes com estilização para cada elemento da página (corpo, menu, links, imagem etc)-->
+<style>
+    .body {
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        padding-right: 3%;
+        padding-left: 3%;
+        list-style-type: none;
+        align-items: center;
+        background-color: #85611f;
+    }
+
+    a,
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .headerimg {
+        width: 150px;
+        height: 150px;
+        border-radius: 0%;
+        border: 5px solid #85611f;
+    }
+
+    .top {
+        padding-top: 2.3%;
+
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .center {
+        text-align: center;
+    }
+    
+    .right {
+        text-align: right;
+    }
+
+    .h1 {
+        color: #85611f;
+        padding-left: 3%;
+        
+    }
+
+    .h2 {
+        color: white;
+        padding-left: 3%;
+        
+        
+
+    }
+    .footer {
+        display: flex;
+        justify-content:center;
+       
+    }
+
+    .footerA {
+        margin: 20px;
+        text-align: center;
+        
+    }
+    .container {
+        padding: 0px 50px;
+        
+    }
+
+    .container2{
+        display: flex; 
+        
+        
+    }
+
+    .margem {
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+    }
+
+
+   
+</style>
+<!--Fim das classes com estilização, início do código-->
+
+<body class="body">
+    <div class="container"> 
+        <nav><!--Criação do Menu com links para outras páginas-->
+            <ul class="menu"> 
+                <li><a href="index2.html"> Sobre Mim</a></li>
+                <li><a href="formacao.html"> Formação</a></li>
+                <li><a href="portifolio.html"> Portifólio</a></li>
+                <li><a href="contato.html"> Contato</a></li>
+    
+    
+            </ul>
+        </nav> <!--Fim do menu-->
+
+<div class="margem"> <!--Código da imagem e do texto no header -->
+    <header class="container2" >
+        <div class="top">
+            <img src="img1.jpg" class="headerimg">
+        </div>
+
+        <div >
+
+            <h1 class="h1">Portifólio</h1>
+            <h3 class="h2"> As imagens nesta página são de projetos realizados por mim utilizando Python, HTML, CSS, MySQL, Excel e diagramas.
+                Tais linguagens e programas são de extrema importância no mundo da Data Science para análise, captura e gerenciamento
+                de dados.</h3>
+                <br>
+
+                <h4 class="h2">Os projetos são obras independentes para demonstração, não tendo vínculos entre eles.</h4>
+                
+            
+            <br><br>
+
+        </div>
+
+    </header> <!--Fim do código da imagem e do texto no header -->
+
+        
+
+    <main> <!--Início do conteúdo principal (imagens dos projetos com título)-->
+        <div>
+            
+            <aside>
+                <h4>Páginas Criadas com HTML e CSS</h4>
+                <img src="BiografiaLeo.jpg" width="900" height="600">
+                
+            </aside>
+            
+
+            <aside>
+                <img src="CuriosidadesLeo.jpg" width="900" height="600">
+                <img src="ObrasLeo.jpg" width="900" height="600">
+                <br>
+                <a>https://juliarobertafp.github.io/projetoleo/</a>
+                
+            </aside>
+
+            <br> <br>
+
+            <aside>
+                <h4> Diagrama Entidade Relacionamento em projeto de Modelagem de dados com tema Companhia Aérea</h4>
+                <img src="modelagemdedados.jpg" width="900" height="600">
+                <br><br><br>
+                
+            </aside>
+             
+            <aside>
+                <h4>Projeto Banco de Dados Relacional para Faculdade em escala amostral </h4>
+                <img src="sql.jpg" width="900" height="600">
+                
+                  
+            </aside>
+            <br><br>
+            
+            <aside>
+                <h4>Projeto em Python para cálculo de serviço de transporte de bagagens</h4>
+                <img src="projetopython.jpg" width="900" height="600">
+                <img src="projetopython2.jpg" width="900" height="600">
+                  
+            </aside>
+             <br><br>
+            <aside>
+                <h4>Dashboard de planilha de vendas em Excel</h4>
+                <img src="dashboard.jpg" width="900" height="600">
+                
+                  
+            </aside>
+        </div>
+       <br>
+       <h5 class="center"> Os dados utilizados nos projetos apresentados neste portifólio são todos fictícios, não sendo expostos os dados de nenhum cliente.</h5>
+       
+        
+    </main> <!--Final do conteúdo principal -->
+    <br><br>
+
+    <h3 class="center"> Visite as minhas redes sociais e saiba mais</h3>
+
+    <footer class="footer" > <!--Início do rodapé com links para minhas redes sociais-->
+        <a class="footerA" href="https://github.com/JuliaRobertaFP" target="_blank" rel="noopener noreferrer">
+            <img src="icons8-github.svg">
+            <p>Github</p>
+        </a>
+
+        <a class="footerA" href="https://www.instagram.com/roberta_paulini/" target="_blank" rel="noopener noreferrer">
+            <img src="icons8-instagram.svg">
+            <p>Instagram</p>
+        </a>
+
+        <a class="footerA" href="https://www.linkedin.com/in/j%C3%BAlia-roberta-618a43257/" target="_blank" rel="noopener noreferrer">
+            <img src="icons8-linkedin.svg">
+            <p>Linkedin</p>
+        </a>
+
+    </footer> <!--Fim do rodapé com links para minhas redes sociais-->
+
+</div>
+      
+    
+</body>
+
+</html>
